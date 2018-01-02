@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <title>
+         Mastermind
+      </title>
+      <style>
+        body {
+          background-color: #CAEFFF;
+        }
+      </style>
+   </head>
+   <body>
+      <h1>
+      Welcome to Mastermind!
+      </h1>
+      <h3>
+      <p>
+      <%= message %>
+      </p>
+      <form>
+         <input type='text' name='input' />
+         <input type='submit' value='Submit'>
+      </form>
+      <p>
+         <%= error %>
+      </p>
+      <p>
+         <%= location %>
+      </p>
+      <p>
+         <%= correct_answers %>
+      </p>
+      <p>
+         <%= contains %>
+      </p>
+      <p>
+         <%= contain_number %>
+      </p>
+      <form method='post' action='/' >
+        <input type='submit' value='New Game'>
+      </form>
+      </h3>
+   </body>
+</html>
+
